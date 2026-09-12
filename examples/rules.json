@@ -1,0 +1,22 @@
+{
+  "trim": [
+    "sku",
+    "item",
+    "category",
+    "date_received",
+    "quantity"
+  ],
+  "lowercase": [
+    "category"
+  ],
+  "iso_dates": [
+    "date_received"
+  ],
+  "required": [
+    "sku"
+  ],
+  "key": [
+    "sku"
+  ],
+  "remove_exact_duplicates": true
+}

@@ -1,0 +1,14 @@
+﻿sku,item,category,date_received,quantity,notes
+ 0007 ,Widget A, PARTS ,2026/09/01,0,"keep, comma"
+0008,Bracket,parts,2026-09-02,12,"line one
+line two"
+0007,Widget A,parts,2026-09-01,0,"keep, comma"
+0009,Cable, SUPPLIES ,03/04/2026,5,date order not supplied
+0010,Clamp,parts,2026-02-30,2,invalid date
+,Unlabeled part,parts,2026-09-03,3,missing SKU
+0011,Régulateur,parts,2026/09/04,4,Unicode preserved
+0008,Bracket,parts,2026-09-02,13,conflicting quantity; retain
+0012, Washer ,PARTS,, 0 ,  notes stay verbatim  
+0013,"Clip ""B""",parts,2024-02-29,-3,negative numeric text retained
+0014,Screw,parts,2026-09-06,1,
+0014,Screw,parts,2026-09-06,1,
